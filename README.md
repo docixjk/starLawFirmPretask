@@ -39,8 +39,11 @@ npm start
 ## 구현 기능
 
 1. 로그인
+   
    1.1. 이메일과 비밀번호
    1.2. 로그인 성공시, 로그아웃
-3. JWT
+
+2. JWT
+
    2.1. access token, refresh token 발급
 
