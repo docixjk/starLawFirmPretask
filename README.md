@@ -70,5 +70,5 @@ RSA_PUBLICKEY=`공개 키`
   * 로그인 성공시 결과, 로그아웃
 
 * JWT
-  * access token, refresh token 발급
+  * access token, refresh token 발급 및 쿠키
 
