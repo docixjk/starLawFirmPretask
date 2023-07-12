@@ -22,7 +22,7 @@ npm install
 * 23.07.11
     * 필요사항 질문 및 코드 수정
 * 23.07.09 ~ 10
-    * 로그인, JWT(access token, refresh token) 구현
+    * 로그인, JWT(access token, refresh token) 구현
 * 23.07.07 ~ 08
     * 관련 내용 검색 및 로직 수립
 
