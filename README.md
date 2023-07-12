@@ -1,6 +1,5 @@
-# 프로젝트명
-
-로그인 API 서비스 제작 (JWT, Access Token 구현)
+# 로그인 API 서비스 제작
+>   (JWT, Access Token 구현)
 ### 엔드포인트 API 서버 구조
 
 ## 개발 환경
