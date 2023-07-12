@@ -250,10 +250,17 @@ export const loginSuccess = (req: Request, res: Response): void => {
  */
 export const logout = (req: Request, res: Response): void => {
   try {
-    res.clearCookie("accessToken");
-    res.clearCookie("refreshToken");
+    const token: string | undefined = req.cookies.accessToken;
 
-    res.status(200).json("Logout Success");
+    if (!token) {
+      res.status(403).json("Access token not found");
+      return;
+    } else {
+      res.clearCookie("accessToken");
+      res.clearCookie("refreshToken");
+
+      res.status(200).json("Logout Success");
+    }
   } catch (error) {
     res.status(500).json(error);
   }
