@@ -10,14 +10,7 @@ API 명세서 : https://documenter.getpostman.com/view/28412814/2s946cgujv
 
 ### vscode
 
-#### Node.js
-
-javascript -> typescript
-의존성이 설치된 상태에서
-
-```sh
-$ tsc
-```
+#### Node.js (typescript)
 
 ## 시작 가이드
 
