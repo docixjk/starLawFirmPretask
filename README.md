@@ -4,6 +4,9 @@ JWT, Access Token 구현
 
 엔드포인트 API 서버 구조
 
+
+API 명세서 : https://documenter.getpostman.com/view/28412814/2s946cgujv#intro
+
 ## 개발 환경
 
 ### vscode
