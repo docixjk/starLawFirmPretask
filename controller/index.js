@@ -65,10 +65,10 @@ const login = (req, res) => {
         }
       );
 
+      // 생성된 refresh token 가상 DB 저장
       const userData = userDatabase.find((item) => {
         return item.email === userInfo.email;
       });
-
       userData.refreshToken = refreshToken;
 
       // token 전송 (cookie)
