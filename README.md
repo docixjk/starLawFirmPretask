@@ -1,15 +1,19 @@
 # 프로젝트명
+
 로그인 API 서비스 제작 (JWT, Access Token 구현)
 
-## 개발 환경 설정
+## 개발 환경
 
 ### vscode
-모든 개발 의존성 설치
+#### Node.js
 1. exprss
 2. dotenv
 3. jsonwebtoken
 4. cookie-parser
 5. nodemon
+
+
+모든 개발 의존성 설치
 
 ```sh
 npm install
@@ -31,4 +35,12 @@ npm install
 ```sh
 npm start
 ```
+
+## 구현 기능
+
+1. 로그인
+   1.1. 이메일과 비밀번호
+   1.2. 로그인 성공시, 로그아웃
+3. JWT
+   2.1. access token, refresh token 발급
 
