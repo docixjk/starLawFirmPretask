@@ -12,7 +12,12 @@ API 명세서 : https://documenter.getpostman.com/view/28412814/2s946cgujv
 
 #### Node.js
 
-typescript
+javascript -> typescript
+의존성이 설치된 상태에서
+
+```sh
+$ tsc
+```
 
 ## 시작 가이드
 
