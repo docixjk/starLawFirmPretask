@@ -14,10 +14,25 @@ JWT, Access Token 구현
 4. cookie-parser
 5. nodemon
 
-모든 개발 의존성 설치
+
+## 시작 가이드
+
+### git 연동
 
 ```sh
-npm install
+$ git clone https://github.com/docixjk/starLawFirmPretask.git
+```
+
+### 의존성 설치
+
+```sh
+$ npm install
+```
+
+### 실행
+
+```sh
+npm start
 ```
 
 ## 필요 사항
@@ -43,11 +58,7 @@ RSA_PUBLICKEY=`공개 키`
 * 23.07.07 ~ 08
     * 관련 내용 검색 및 로직 수립
 
-## 실행
 
-```sh
-npm start
-```
 
 ## 구현 기능
 
